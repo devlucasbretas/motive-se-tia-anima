@@ -1,0 +1,216 @@
+body {
+    background: linear-gradient(to right, rgb(255, 72, 0), rgb(219, 148, 40));
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    margin-top: -50px;
+    width: 100vw;
+    height: 60px;
+    background-color: transparent;
+    position: fixed;
+}
+
+.menu {
+    text-align: right;
+    margin-right: 40px;
+    
+}
+
+.menu ul li {
+    margin-left: 35px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.menu a:hover {
+    border-bottom: 3px solid rgb(243, 193, 56);
+}
+
+.menu a{
+    padding: 3px;
+    color: rgb(36, 36, 36);
+    font-size: 12pt;
+    font-family: 'Viga', sans-serif;
+}
+
+
+.main {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding: 5px;
+}
+
+#titulo {
+    font-family: 'Viga', sans-serif;
+    font-size: 22pt;
+}
+
+.n10 {
+    color: gold;
+}
+
+.tia {
+    margin-left: -970px;
+}
+
+.main p{
+    font-size: 13pt;
+    margin-top: 10px;
+}
+
+.img1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.img2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-start {
+    padding: 5px;
+    text-align: center;
+    border: 3px solid rgb(243, 193, 56);
+    border-radius: 15px;
+    font-family: 'Viga', sans-serif;
+    color: rgb(32, 32, 32);
+}
+
+.btn-start:hover{
+    background-color: rgb(243, 193, 56);
+}
+
+.generator {
+    margin-top: 100px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#frase {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px 30px 5px 30px;
+    box-shadow: 6px 6px 7px rgba(0, 0, 0, 0.267);
+    border: 2px solid rgb(44, 44, 44);
+    font-size: 15pt;
+}
+
+.btn {
+    padding: 8px;
+    margin-top: 130px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+    font-size: 13pt;
+    margin-left: 100px;
+    margin-right: auto;
+    float: none;
+    border: 2px solid rgb(221, 193, 65);
+    background-color: transparent;
+}
+
+.btn:hover {
+    background-color: rgb(221, 193, 65);
+}
+
+.avatar {
+    float: right;
+    margin-right: -50px;
+    border-radius: 50%;
+}
+
+.friends {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(36, 36, 36);
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+    
+    body {
+        width: 100vw;
+    }
+
+    .nav {
+        position: fixed;
+        margin-top: -90px;
+    }
+
+    .menu ul li {
+        font-size: 10pt;
+        margin-top: 10px;
+        margin-left: -10px;
+        padding-bottom: 30px;
+    }
+
+    .menu a {
+        font-size: 13pt;
+        margin: 0px 20px 0px 0px;
+    }
+
+    .main {
+        width: 300px;
+        margin-top: 100px;
+        padding: 10px;
+
+    }
+
+    .main p {
+        font-size: 11pt;
+    }
+
+    .image1{
+        width: 250px;
+    }
+
+    .friends {
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+    }
+
+    .generator {
+        width: 320px;
+    }
+
+    #frase {
+        width: 250px;
+        border-radius: 10px;
+        font-size: 12pt;
+        position: relative;
+    }
+
+    .avatar {
+        margin-right: 85px;
+        margin-top: 15px;
+        border-radius: 50%;
+    }
+
+    .btn {
+        margin-top: 30px;
+        margin-left: 5px;
+        margin-right: auto;
+    }
+    }
