@@ -11,15 +11,15 @@ html {
 nav {
     margin-top: -50px;
     width: 100vw;
-    height: 60px;
-    background-color: transparent;
+    height: 40px;
+    background: linear-gradient(to right, rgba(255, 72, 0, 0.705), rgba(219, 147, 40, 0.603));
     position: fixed;
+
 }
 
 .menu {
     text-align: right;
     margin-right: 40px;
-    
 }
 
 .menu ul li {
@@ -154,7 +154,7 @@ footer {
 
     .nav {
         position: fixed;
-        margin-top: -90px;
+        margin-top: -50px;
     }
 
     .menu ul li {
@@ -171,7 +171,7 @@ footer {
 
     .main {
         width: 300px;
-        margin-top: 100px;
+        margin-top: 50px;
         padding: 10px;
 
     }
