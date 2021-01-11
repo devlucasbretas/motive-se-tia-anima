@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, rgb(255, 72, 0), rgb(219, 148, 40));
+    background: linear-gradient(to right, rgb(233, 89, 71), rgb(236, 134, 49));
     margin: 0px;
     padding: 0px;
 }
@@ -11,8 +11,8 @@ html {
 nav {
     margin-top: -50px;
     width: 100vw;
-    height: 40px;
-    background: linear-gradient(to right, rgba(255, 72, 0, 0.705), rgba(219, 147, 40, 0.603));
+    height: 50px;
+    background: linear-gradient(to right, rgba(233, 90, 71, 0.836), rgba(236, 133, 49, 0.795));
     position: fixed;
 
 }
@@ -121,12 +121,12 @@ nav {
     margin-left: 100px;
     margin-right: auto;
     float: none;
-    border: 2px solid rgb(221, 193, 65);
+    border: 2px solid rgb(243, 193, 56);
     background-color: transparent;
 }
 
 .btn:hover {
-    background-color: rgb(221, 193, 65);
+    background-color: rgb(243, 193, 56);
 }
 
 .avatar {
